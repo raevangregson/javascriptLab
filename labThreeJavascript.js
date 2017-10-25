@@ -60,7 +60,7 @@ function hit(attack){
       }
 
 do{
-      var userResponse = prompt("Would you like to attack again, heal yourself, or quit ?");
+      var userResponse = prompt("Would you like to attack, heal yourself, or quit ?");
       if(userResponse.toLowerCase() === "quit"){
         attack = false;
         console.log("You quit! You lose. :()")
