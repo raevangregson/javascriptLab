@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html>
 <body>
-  <script type="text/javascript" src="labThreeJavascript.js"></script>
+  <!-- <script type="text/javascript" src="labThreeJavascript.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <button id="start" class="buttons start">Start</button>
+    <div id="buttons">
+    <button id="attack" class="buttons">
+      ATTACK
+    </button>
+    <button id="heal" class="buttons">
+      HEAL
+    </button>
+    <button id="quit" class="buttons">
+      QUIT
+    </button>
+  </div>
+    <div id="progress">
+      <p class="words"></p> <progress id="userHealth" class="progress" value="40" max="40">
+</progress>
+<p></p><progress id="healCount" class="progress" value="0" max="2">
+</progress>
+<p></p><progress id="wins" class="progress" value="0" max="3">
+</progress>
+<p></p><progress id ="grantHealth" class="progress" value="10" max="10">
+</progress>
+    </div>
+
+
 </body>
 </html>

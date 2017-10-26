@@ -1,0 +1,33 @@
+body{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+button{
+  background-color: #3D7B89;
+  color: white;
+  font-weight: lighter;
+  font-size: 30px;
+  width: 150px;
+  display:none;
+
+}
+
+.progress{
+  display:none;
+}
+
+#progress{
+  display:flex;
+
+}
+
+#buttons{
+  display:flex;
+}
+
+#start{
+display: flex;
+
+}

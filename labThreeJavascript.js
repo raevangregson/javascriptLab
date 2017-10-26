@@ -12,7 +12,7 @@ var user = {
     this.health -= damage(1,3);
     console.log(this.name+"'s' health is "+this.health);
   },
-  heal:function heal(){
+  heal:function (){
     var healAmount = damage(1,10);
     this.health+=healAmount;
     console.log("oH Em GeEe, your fairy god mother has shown up an given you "
@@ -25,7 +25,7 @@ var grant = {
 name:"Grant",
 health: 10,
   //users attack method yo - moved from my orginial combat function
-attack: function attack(){
+attack: function (){
   this.health -= damage(1,5);
   console.log(this.name+"'s' Health is "+this.health);
 }
