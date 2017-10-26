@@ -3,11 +3,17 @@ var grantHealth = document.getElementById("grantHealth");
 var healCount = document.getElementById("healCount");
 var wins = document.getElementById("wins");
 var texts = document.getElementsByTagName("p");
+
+
 var start = document.getElementById("start");
 var words = ["health:","healcount:","wins:","grant's health:"]
+
+
 var attack = document.getElementById("attack");
 var heal = document.getElementById("heal");
 var quit = document.getElementById("quit");
+
+
 var user = {
   name:"",
   health:40,
@@ -25,6 +31,7 @@ var user = {
   },
   wins:0
 };
+
 var grant = {
 name:"Grant",
 health: 10,
@@ -51,6 +58,7 @@ start.onclick = function(){
   text.textContent = words[count];
   });
 }
+
 
 
 attack.onclick = function(){
@@ -82,9 +90,4 @@ heal.onclick = function(){
 
 quit.onclick = function(){
 
-}
-
-function damage(min,max)
-{
-    return Math.floor(Math.random()*(max-min+1)+min);
 }
