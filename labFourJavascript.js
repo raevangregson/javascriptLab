@@ -51,7 +51,8 @@ start.onclick = function(){
   text.textContent = words[count];
   });
 }
-function(){
+
+
 attack.onclick = function(){
   user.attack();
   grant.attack();
@@ -81,7 +82,6 @@ heal.onclick = function(){
 
 quit.onclick = function(){
 
-}
 }
 
 function damage(min,max)
