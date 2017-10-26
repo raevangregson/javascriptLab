@@ -2,7 +2,7 @@ var userHealth = document.getElementById("userHealth");
 var grantHealth = document.getElementById("grantHealth");
 var healCount = document.getElementById("healCount");
 var wins = document.getElementById("wins");
-var texts = document.getElementsByTagName("p");
+var texts = document.getElementById("progress");
 
 
 var start = document.getElementById("start");
@@ -52,11 +52,8 @@ start.onclick = function(){
   grantHealth.style.display = "inherit";
   healCount.style.display = "inherit";
   wins.style.display = "inherit";
-  var count = -1;
-  texts.foreach(function(text){
-  count++;
-  text.textContent = words[count];
-  });
+  texts.style.display = "flex";
+
 }
 
 
